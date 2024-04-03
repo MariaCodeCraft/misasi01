@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Info and Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Country Info & Weather</h1>
+            <!-- navigation -->
+        </div>
+    </nav>
+
+    <div>
+        <label for="country">Enter Country Name:</label>
+        <input type="text" id="country">
+        <button onclick="getCountryData()">Get Country Data</button>
+    </div>
+
+    <div id="country-info">
+        <!-- Country data will be displayed here -->
+    </div>
+
+    <div id="weather-buttons">
+        <!-- Weather button will be displayed here -->
+    </div>
+
+    <div id="temp-div">
+        <!-- Temperature data will be displayed here -->
+    </div>
+
+    <div id="weather-info">
+        <!-- Weather data will be displayed here -->
+    </div>
+
+    <img id="weather-icon" src="" alt="Weather Icon">
+
+    <div id="hourly-forecast">
+        <!-- Hourly forecast data will be displayed here -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Country Info & Weather</p>
+        </div>
+    </footer>
+
+
+    <script src="scripts.js"></script> <!-- JavaScript file here -->
+</body>
+</html>
+
